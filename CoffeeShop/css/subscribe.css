@@ -1,0 +1,104 @@
+
+.signup{
+    margin: 50px 400px 0px 400px;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-family:'Inter', sans-serif;
+}
+
+ 
+
+header{
+
+
+display: flex;
+height: 20vh;
+justify-content: center;
+align-items: center;
+}
+
+
+.logo{
+margin-top: 40px;
+position: absolute;
+height: 230px;
+width: 230px;
+left: -40px;
+
+}
+
+form {
+    
+display: flex;
+flex-direction: column;
+margin-top: 5px;
+justify-content: center;
+align-items: center;
+}
+
+input{
+box-sizing: border-box;
+width: 340px;
+height: 66px;
+margin-bottom: 50px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 8px;
+padding: 10px 10px;
+font-size: 20px;
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+
+
+}
+
+input::placeholder{
+color: rgba(0, 0, 0, 0.3);;
+}
+
+input.email{
+padding: 20px 25px;
+
+
+}
+
+input.password{
+padding: 20px 25px;
+
+}
+
+
+
+.signupbox{
+
+border-radius: 0px;
+width: 250px;
+height: 50px;
+margin-bottom: 35px;
+background: #000000;
+color: white;
+}
+
+p{
+margin-bottom: 7px;
+font-size: 18px;
+}
+
+p.title{
+font-size: 28px;
+font-family: 'Source Serif Pro', serif;
+}
+
+p.link{
+margin-bottom: 30px;
+font-weight: bold;
+
+}
+
+a{
+text-decoration: none;
+color: black;
+}

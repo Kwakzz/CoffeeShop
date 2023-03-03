@@ -1,0 +1,93 @@
+.login{
+    margin: 100px 400px 200px 400px;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-family:'Inter', sans-serif;
+}
+
+ 
+
+header{
+
+background-color: black;
+display: flex;
+height: 25vh;
+justify-content: center;
+align-items: center;
+}
+.logo{
+margin-top: 50px;
+position: absolute;
+height: 350px;
+width: 350px;
+
+}
+
+form {
+    
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+justify-content: center;
+align-items: center;
+}
+
+input{
+box-sizing: border-box;
+width: 340px;
+height: 66px;
+margin-bottom: 40px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 8px;
+padding: 10px 10;
+font-size: 20px;
+font-weight: lighter;
+
+
+}
+
+input::placeholder{
+color: rgba(0, 0, 0, 0.3);;
+}
+
+input.email{
+padding: 20px 25px;
+
+
+}
+
+input.password{
+padding: 20px 25px;
+
+}
+
+
+
+.loginbox{
+
+border-radius: 0px;
+width: 150px;
+height: 50px;
+margin-bottom: 25px;
+
+background: #000000;
+color: white;
+}
+
+p{
+margin-bottom: 7px;
+}
+
+p.link{
+margin-bottom: 40px;
+
+}
+
+a{
+text-decoration: none;
+color: black;
+}

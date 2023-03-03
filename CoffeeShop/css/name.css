@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Garamond';
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: whitesmoke;
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container form .imagelogo{
+  position: absolute;
+  top: 90px;
+  left: 430px;
+  height:200px;
+  width: 200px;
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  margin:50px 0 10px 200px;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  margin: 50px 0 20px 0;
+  width: calc(160% / 1.5 - 15px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 50;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-right: 170px;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 60%;
+  outline: black;
+  font-size: 16px;
+  border-radius: 0px;
+  padding-left: 15px;
+  border: solid #1b0e0e;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  transition: all 0.3s ease;
+}
+  form .button{
+   height: 45px;
+   margin: 45px 0;
+ }
+ form .button input{
+   height: 100%;
+   width: 450%;
+   border-radius: 0px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 2px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: black;
+   margin-left: 2px;
+ }
+ form .button input:hover{
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  }
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+   .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  }
+}
+
+

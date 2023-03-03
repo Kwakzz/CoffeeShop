@@ -1,0 +1,339 @@
+
+
+.logo{
+    top: -90px;
+    margin-top: 40px;
+    position: absolute;
+    height: 235px;
+    width: 230px;
+    left: -40px;
+}
+
+
+p.draft{
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    font-size: 25px;
+    font-family:'Inter', sans-serif;
+
+}     
+
+
+input.publish{
+    position: absolute;
+    align-items: center;
+    border: none;
+    top: 40px;
+    right: 250px;
+    width: 115px;
+    height: 35px;
+    font-size: 19px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-family:'Inter', sans-serif;
+}
+
+.publish:hover{
+    background-color: white;
+    color: black;
+    transition-duration: .2s;
+    border: .5px solid black;
+}
+  
+
+.dropdown {
+
+			position: absolute;
+			display: inline-block;
+            top: 33px;
+            right: 100px ;
+           
+
+        
+		}
+        .profile-button{
+            border: none;
+            background-color: white;
+        }
+
+        img.userprofile:hover{
+
+            content: url('../Accessories/face_FILL0_wght100_GRAD-25_opsz48.png');
+            
+
+        }
+
+ 
+      
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			z-index: 1;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+           
+		}
+
+		.dropdown-content a {
+            border-style: solid;
+            border-radius: 20px;
+            border-width: 0px;
+            width: 100px;
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: flex;
+            background-color: white;
+         
+           
+		}
+
+
+
+        .dropdown-content a img{
+            
+            width: 20px;
+            height: 20px;
+            padding-right: 15px;
+        }
+
+  
+      
+   
+		.dropdown-content a:hover {
+			background-color: black;
+            color: white;
+            opacity: 1;
+        
+		}
+
+        .dropdown-content a:nth-of-type(1):hover img {
+        content: url('../Accessories/user.png');
+}
+
+        .dropdown-content a:nth-of-type(2):hover img {
+        content: url('../Accessories/script.png');
+}
+
+        .dropdown-content a:nth-of-type(3):hover img {
+        content: url('../Accessories/cogwheel.png');
+}
+
+.dropdown-content a:nth-of-type(4):hover img {
+        content: url('../Accessories/log-out.png');
+}
+
+img.expand{
+    height: 40px;
+    width: 40px;
+    font-weight: lighter;
+    margin-left: -15px;
+}
+img.userprofile{
+    background-color: white;
+}
+
+div.body{
+    border-top: .5px solid black;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    padding-top: 50px;
+}
+
+
+form{
+
+    display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 150px;
+  
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+
+}
+
+.form-field label {
+  margin-right: 10px;
+  white-space: nowrap;
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+}
+
+.form-field input{
+    margin-left: 70px;
+    width: 200px;
+    height:50px;
+    font-size: 20px ;
+    padding-left: 10px;
+    border: none;
+    border-bottom: solid;
+    border-width: .5px;
+    font-family: 'Noto Serif Display', serif;
+    font-weight:300;
+    font-style: normal;
+  
+}
+
+.form-field input.title{
+
+    font-family:'Inter', sans-serif;
+   margin-top: -20px;
+  
+}
+
+.form-field input.subtitle{
+    margin-left: 33px;
+    margin-top: -20px;
+    font-size: 18px;
+    font-family: 'Noto Serif Display', serif;
+
+}
+
+
+.form-field input.subtitle::placeholder{
+
+    font-family: 'Noto Serif Display', serif;
+    /* font-style: italic; */
+    font-size: 18px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+  
+    /* opacity: .5; */
+    font-weight: lighter;
+
+}
+
+.form-field textarea{
+
+margin-left: 0px;
+margin-bottom: 10px;
+width: 1000px;
+height:350px;
+padding-top: 10px;
+font-size: 20px ;
+padding-left: 10px;
+border: none;
+border-width: .5px;
+font-family: 'Noto Serif Display', serif;
+font-weight:300;
+font-style: normal;
+
+}
+.form-field textarea::placeholder{
+
+    font-family: 'Noto Serif Display', serif;
+    /* font-style: italic; */
+    font-size: 20px;
+    /* padding-left: 0px; */
+  
+  
+    /* opacity: .5; */
+    font-weight: lighter;
+
+}
+.file-upload-label {
+
+    display: contents;
+  cursor: pointer;
+
+}
+
+
+.file-upload-label img {
+    margin-top: -330px;
+    margin-left: -5px;
+    width:55px;
+    height: 55px;
+}
+
+
+
+.file-upload {
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+
+
+
+}
+/* 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+} */
+
+
+
+
+
+input.discard{
+    position: absolute;
+    align-items: center;
+    border: none;
+    top: 600px;
+    left: 530px;
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border-radius: 20px;
+    background-color: white;
+    border: .5px solid black;
+    color: black;
+    font-family:'Inter', sans-serif;
+}
+
+.discard:hover{
+    background-color: black;
+    color: white;
+    transition-duration: .2s;
+    border:none;
+}
+
+input.save{
+    position: absolute;
+    align-items: center;
+    border: none;
+    top: 600px;
+    right: 530px;
+    width: 150px;
+    height: 50px;
+    font-size: 19px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-family:'Inter', sans-serif;
+}
+
+.save:hover{
+    background-color: white;
+    color: black;
+    transition-duration: .2s;
+    border: .5px solid black;
+}
