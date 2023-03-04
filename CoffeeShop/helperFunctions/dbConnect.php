@@ -1,7 +1,7 @@
 <?php 
 
 //database connection parameters
-$servername = "13.42.12.179";
+$servername = "localhost:3306";
 $username = "java";
 $password = "password";
 $dbname = "CoffeeShop";
