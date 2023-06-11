@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('path/to/eb-garamond.woff2') format('woff2'),
+         url('path/to/eb-garamond.woff') format('woff');
+    /* Add other font formats as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+form {
+    border:0.025px solid gray;
+    width: 21%;
+    padding-left: 10.5%;
+    padding-right: 10.5%;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    margin-left: 29%;
+    margin-right: 29%;
+    margin-top: 5.5%;
+    margin-bottom: 5.5%;
+
+}
+
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+}
+
+label {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-left: 37.5%;
+    font-family: 'EB Garamond', serif;
+}
+
+img {
+    float: left;
+    width: 20.5%;
+    height: auto;
+    margin-left: -35%;
+}
+
+input {
+    border-style: none none solid none;
+    border-color:gray;
+    border-width: 0.5px;
+    padding-left: 6.25%;
+    padding-right: 9.25%;
+    padding-bottom: 9.25%;
+    margin-top: 7.25%;
+    margin-bottom: 9.25%;
+    width: 100%;
+}
+
+.entries {
+    margin-top: 29.5%;
+    width: 85%;
+}
+
+
+.name {
+    padding-top: 6.25%;
+    padding-bottom: 6.25%;
+    margin-bottom: 15.25%;
+}
+
+
+#finish {
+    padding-top: 4.25%;
+    padding-bottom: 4.25%;
+    width:75%;
+    margin-top: -1.25%;
+    margin-left: 12.5%;
+    color: white;
+    background-color: black;
+}
+
+
+
+#heading {
+    font-family: 'EB Garamond';
+}
+
+#bio_label {
+    margin-left: 47.5%;
+}

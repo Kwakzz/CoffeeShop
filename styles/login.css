@@ -1,0 +1,82 @@
+form {
+    border:0.025px solid gray;
+    width: 21%;
+    padding-left: 10.5%;
+    padding-right: 10.5%;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    margin-left: 29%;
+    margin-right: 29%;
+    margin-top: 5%;
+
+}
+
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+}
+
+#logo_bg {
+    margin-left: -50.5%;
+    margin-top: -12.5%;
+    margin-bottom: 12.5%;
+    width:200%;
+    background-color: black;
+}
+
+img {
+    margin-left: 39.5%;
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+    width: 20.5%;
+    height: auto;
+    background-size: 3rem;
+}
+
+input {
+    border:0.025px solid gray;
+    border-radius: 5px;
+    padding-left: 6.25%;
+    padding-right: 9.25%;
+    padding-bottom: 9.25%;
+    margin-bottom: 9.25%;
+    width: 100%;
+}
+
+.entries {
+    width: 85%;
+}
+
+
+#email_address {
+    padding-top: 6.25%;
+    padding-bottom: 6.25%;
+}
+
+#password_container {
+    position: relative;
+}
+
+#password {
+    padding-top: 6.25%;
+    padding-bottom: 6.25%;
+}
+
+#toggle_password {
+  position: absolute;
+  top: 35%;
+  right: -20px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#login {
+    padding-top: 4.25%;
+    padding-bottom: 4.25%;
+    width:75%;
+    margin-left: 12.5%;
+    color: white;
+    background-color: black;
+}
